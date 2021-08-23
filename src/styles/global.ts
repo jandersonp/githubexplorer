@@ -5,11 +5,14 @@ import githubBackground from '../assets/github-background.svg';
 export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #F0F0F5;
-    --green: #04d361;
-    --shape: #ffffff;
+    --green: #04D361;
+    --shape: #FFF;
 
-    --text-title: #3D3D4D;
+    --text-title: #3A3A3A;
     --text-body: #A8A8B3;
+
+    --text-description: #3D3D4D;
+    --arrow: #cbcbd6;
   }
 
   * {
