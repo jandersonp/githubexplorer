@@ -28,7 +28,7 @@ export const Form = styled.form`
     height: 4.5rem;
     padding: 0 1.5rem;
     border: 0;
-    border-radius: 0.3rem 0 0 0.3rem;
+    border-radius: 0.3rem;
     color: var(--text-title);
 
     &::placeholder {
@@ -42,8 +42,9 @@ export const Form = styled.form`
     background: var(--green);
     border: 0;
     color: var(--shape);
-    border-radius: 0 0.3rem 0.3rem 0;
+    border-radius: 0.3rem;
     font-weight: bold;
+    margin-left: 1rem;
 
     transition: filter 0.2s;
 
